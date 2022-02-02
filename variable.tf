@@ -3,9 +3,9 @@ variable "environment" {
   description = "Environment"
 }
 
-variable "region" {
+variable "regions" {
   type        = string
-  description = "Region"
+  description = "Regions"
 }
 
 variable "ceco" {
@@ -16,11 +16,6 @@ variable "ceco" {
 variable "owner" {
   type        = string
   description = "Owner"
-}
-
-variable "type" {
-  type        = string
-  description = "type"
 }
 
 variable "app-name" {
