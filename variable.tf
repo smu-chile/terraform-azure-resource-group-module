@@ -23,4 +23,8 @@ variable "app-name" {
   description = "app-name"
 }
 
+variable "name" {
+  type        = string
+  description = "name"
+}
 
