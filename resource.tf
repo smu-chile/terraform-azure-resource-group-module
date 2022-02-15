@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = "cl-azure-${var.name}-${var.enviroment}"
+  name     = "cl-azure-${var.name}-${var.environment}"
   location = var.regions
   tags = {
     applicationname = var.app-name
